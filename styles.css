@@ -1,13 +1,16 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box; 
 }
+
 header{
     background-color: #1f2937;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding:8px 8rem;
+    gap:24px;
 }
 
 .logo{
@@ -25,5 +28,53 @@ ul{
     list-style-type: none;
     display: flex;
     gap:16px;
+}
+
+/* ------------- */
+.section-one{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: space-between;
+    padding:8rem 8rem;
+    gap:24px;
+}
+
+.left{
+    gap: 8px;
+    flex:1;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    flex:1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.hero-paragraph{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.hero-button{
+    background-color:#3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border:solid #3882F6; 
 }
 
