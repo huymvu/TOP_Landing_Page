@@ -165,7 +165,7 @@ button{
 .modal-header{
     font-size: 36px;
     font-weight: 800px;
-    color: white;
+    color: #F9FAF8;
 }
 
 .modal-subtext{
@@ -174,7 +174,16 @@ button{
 }
 
 .modal-button{
-    color:white;
-    border: solid white;
+    color:#F9FAF8;
+    border: solid #F9FAF8;
 } 
 
+/* -----------Footer--------- */
+footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4rem 12rem;
+    color: #F9FAF8;
+}
