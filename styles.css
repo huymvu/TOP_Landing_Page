@@ -4,6 +4,8 @@
     box-sizing: border-box; 
 }
 
+/* -----------Header Nav--------- */
+
 header{
     background-color: #1f2937;
     display:flex;
@@ -30,12 +32,12 @@ ul{
     gap:16px;
 }
 
-/* ------------- */
+/* -----------Section 1--------- */
 .section-one{
     background-color: #1f2937;
     display:flex;
     justify-content: space-between;
-    padding:8rem 8rem;
+    padding:4rem 8rem;
     gap:24px;
 }
 
@@ -78,3 +80,39 @@ img {
     border:solid #3882F6; 
 }
 
+/* -----------Section 2--------- */
+.section-two{
+    padding:4rem 8rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+}
+.info {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+    display:flex;
+}
+.sub-container{
+    display:flex;
+    gap:8px;
+}
+
+.sub-container div{
+    display: flex;
+    flex-direction: column;
+}
+.sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    flex:1;
+}
+
+.sub-img{
+    border-radius: 8px;
+    border:solid #3882F6;
+    border-width: 7px;
+    flex:1;
+}
